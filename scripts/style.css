@@ -1,0 +1,246 @@
+/*Palette: https://colorhunt.co/palette/264715*/
+
+body{
+    background-color: rgb(248,249,250); /* rgb(238, 235, 221)*/
+    color: black;
+}
+.atalhos{
+    margin-bottom: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70%;
+    padding-right: 0;
+    color: black;
+}
+.atalhos a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Navbar*/
+.nav-link{
+    color:rgb(150, 0, 0) ;
+}
+#navbar-active{
+    background-color:rgba(150, 0, 0.5);
+    color: white;
+}
+
+/*footer*/
+footer{
+    text-decoration: none;
+}
+
+
+/*carousel - index*/
+#slides{
+    width: 120%;
+    height: 20%;
+    left: -10%;
+}
+.carousel-caption{
+    color: white;
+    top: 15%;
+}
+.carousel-caption h5{
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-caption p{
+    font-family: sans-serif;
+    font-size: 100%;
+}
+#slides a{
+    color: black;
+}
+.carousel-inner{
+    background-image: url('../assets/predio.png');
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    font-size: 200px; 
+    font-weight: bold;
+    bottom:10%;
+    color: #fff;
+}
+#slides img{
+    border-radius: 5%;
+}
+.carousel-indicators{
+    top:10%
+}
+
+/*accordion*/
+
+#container-accordion{
+    margin-top: 5%;
+    width: 110%;
+    left: -10%;
+}
+#container-accordion .col{
+    margin-right: 5%;
+}
+#accordion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#accordion button{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#accordion button:hover{
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor:pointer;
+}
+.card-header{
+    background-color: rgb(167, 39, 39);
+    text-align: center;
+}
+.card-header:hover{
+    background-color:rgba(150, 0, 0.5);
+    cursor:pointer;
+
+}
+
+
+/*conteudo principal*/
+.fundo-vermelho{
+    width:100%;
+    position: relative;
+    
+}
+#conteiner-contato{
+    margin-top: 3%;
+    width: 90%;
+    left: 2%;
+}
+#footer-contato{
+    margin-top: 45%;
+}
+
+#conteiner-sobrenos{
+    margin-top:2%;
+    margin-left: 2%;
+    width: 90%;
+
+}
+
+#conteiner-sobrenos h2{
+    color: rgb(167, 39, 39);
+    margin-bottom: 2%;
+}
+
+/*contato*/
+
+#contato-info{
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-right: 0;
+    
+}
+.numero-info,.mail-info,.endereco-info{
+    padding-bottom: 6%;
+}
+.map-icon, .tel-icon, .mail-icon{
+    position: absolute;
+    left: -8%;
+    width: 5%;
+    max-height: auto;
+}
+.map-icon{
+    width: 4%;
+    top:-1%;
+    max-height: auto;
+}
+.tel-icon{
+    top: 35%;
+}
+.mail-info{
+    padding-top: 4%;
+}
+.mail-icon{
+    top: 73%;
+}
+
+/*Formulario*/
+.area-form{
+    position: absolute;
+    padding-right: 10%;
+    margin-right: 50%;
+    width: 50%;
+    left:2%;
+}
+#form-contato button{
+    cursor: pointer;
+    background-color:  rgba(129, 0, 0);;
+    font-family: url('Saudagar.ttf');
+    font-size: 100%;
+    border-radius: 5%;
+    border: none;
+    color: white;
+    margin: 2% 0 5% 40%;
+}
+#form-contato button:hover{
+    border: none;
+    background-color: rgba(99, 0, 0);
+    font-size: 110%;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.5);
+    left: 40%;
+
+}
+#form-contato .mb-3{
+    margin: 2% 6% 1% 6%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#form-contato fieldset{
+    border-style: solid;
+    border-radius: 2%;
+    border-color: rgb(129, 0, 0);
+    border-width: 2px;
+    padding: 2% 2% auto 2%;
+    
+}
+#form-contato legend{
+    color:rgb(129, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background-color: none;
+    margin-top: 2%;
+    text-align: center;
+  
+}
+
+
+
+#container-empreendimentos{
+    left: -20%;
+    width: 120%;
+    margin-top: 5%;
+}
+#coluna-residencial > .row, #coluna-comercial > .row{
+    margin-bottom: 5%;
+}
+
+
+.card{
+    border-color: rgba(167, 39, 39, 0.5);
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: black;
+}
+
+.bread-item{
+    color: black;
+}
+
+.bread-item-ativo{
+    color: black;
+    text-align: center;
+}

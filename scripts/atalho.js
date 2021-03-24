@@ -1,0 +1,1 @@
+window.atalho = new Atalhos();
